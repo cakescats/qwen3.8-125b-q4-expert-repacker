@@ -1,0 +1,12 @@
+qwen3.8-125b-q4-expert-repacker
+Copyright 2026 cakescats
+
+This repository contains code from QwFNfer (https://github.com/Apolog1ze-Dev/QwFNfer)
+and its community forks, licensed under the Apache License 2.0:
+src/qwfn_model.h, src/qwfn_model.cpp, src/qwfn_hparams.h, src/qwfn_plat.h,
+src/qwfn_plat_posix.cpp -- copied unmodified.
+
+src/qwfn_pack.h, src/qwfn_pack.cpp and tools/qwfn_pack.cpp are new in this repository.
+
+The GGUF reader is ggml's (https://github.com/ggml-org/llama.cpp, MIT License),
+linked from an existing llama.cpp build.
